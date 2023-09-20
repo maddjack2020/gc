@@ -1,0 +1,19 @@
+Source: gc
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: debhelper-compat (= 13), dh-autoreconf
+Standards-Version: 4.5.1
+Homepage: <insert the upstream URL, if relevant>
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/gc.git
+Vcs-Browser: https://github.com/maddjack2020/gc
+
+Package: gc
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ The GC package contains the Boehm-Demers-Weiser conservative garbage
+ collector, which can be used as a garbage collecting replacement for the C
+ malloc function or C++ new operator.

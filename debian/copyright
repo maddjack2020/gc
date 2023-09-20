@@ -1,0 +1,849 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: gc
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     AUTHORS
+           Config.cmake.in
+           Makefile.direct
+           NT_MAKEFILE
+           OS2_MAKEFILE
+           PCR-Makefile
+           SMakefile.amiga
+           WCC_MAKEFILE
+           autogen.sh
+           bdw-gc.pc.in
+           build/s60v3/bld.inf
+           build/s60v3/libgc.mmp
+           cord/cord.am
+           digimars.mak
+           doc/README.DGUX386
+           doc/README.OS2
+           doc/README.amiga
+           doc/README.arm.cross
+           doc/README.autoconf
+           doc/README.cmake
+           doc/README.darwin
+           doc/README.emscripten
+           doc/README.environment
+           doc/README.ews4800
+           doc/README.hp
+           doc/README.linux
+           doc/README.macros
+           doc/README.rs6000
+           doc/README.sgi
+           doc/README.solaris2
+           doc/README.symbian
+           doc/README.uts
+           doc/README.win32
+           doc/README.win64
+           doc/debugging.md
+           doc/finalization.md
+           doc/gc.man
+           doc/gcdescr.md
+           doc/gcinterface.md
+           doc/leak.md
+           doc/overview.md
+           doc/porting.md
+           doc/scale.md
+           doc/simple_example.md
+           doc/tree.md
+           extra/AmigaOS.c
+           extra/MacOS.c
+           extra/Mac_files/MacOS_config.h
+           extra/Mac_files/dataend.c
+           extra/Mac_files/datastart.c
+           extra/symbian.cpp
+           extra/symbian/global_end.cpp
+           extra/symbian/global_start.cpp
+           extra/symbian/init_global_static_roots.cpp
+           gc_badalc.cpp
+           gc_cpp.cpp
+           ia64_save_regs_in_stack.s
+           include/config.h.in
+           include/extra/gc.h
+           include/extra/gc_cpp.h
+           sparc_mach_dep.S
+           sparc_netbsd_mach_dep.s
+           tests/huge_test.c
+           tests/leak_test.c
+           tests/middle.c
+           tests/realloc_test.c
+           tests/smash_test.c
+           tests/staticrootslib.c
+           tests/staticrootstest.c
+           tests/subthread_create.c
+           tests/thread_leak_test.c
+           tests/threadkey_test.c
+           tests/trace_test.c
+           tools/callprocs.sh
+           tools/if_mach.c
+           tools/if_not_there.c
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     allchblk.c
+           alloc.c
+           backgraph.c
+           blacklst.c
+           checksums.c
+           configure.ac
+           cord/cordbscs.c
+           cord/tests/cordtest.c
+           cord/tests/de_cmds.h
+           cord/tests/de_win.h
+           cord/tests/de_win.rc
+           darwin_stop_world.c
+           dbg_mlc.c
+           dyn_load.c
+           extra/pcr_interface.c
+           extra/real_malloc.c
+           finalize.c
+           fnlz_mlc.c
+           gc_badalc.cc
+           gc_cpp.cc
+           gc_dlopen.c
+           gcj_mlc.c
+           headers.c
+           include/ec.h
+           include/gc_cpp.h
+           include/gc_disclaim.h
+           include/gc_gcj.h
+           include/gc_inline.h
+           include/gc_tiny_fl.h
+           include/javaxfc.h
+           include/leak_detector.h
+           include/private/darwin_semaphore.h
+           include/private/darwin_stop_world.h
+           include/private/gc_hdrs.h
+           include/private/gc_locks.h
+           include/private/gc_priv.h
+           include/private/pthread_stop_world.h
+           include/private/pthread_support.h
+           include/private/specific.h
+           mach_dep.c
+           malloc.c
+           mallocx.c
+           mark.c
+           mark_rts.c
+           misc.c
+           new_hblk.c
+           obj_map.c
+           os_dep.c
+           pthread_start.c
+           pthread_stop_world.c
+           pthread_support.c
+           ptr_chck.c
+           reclaim.c
+           specific.c
+           tests/disclaim_bench.c
+           tests/initsecondarythread.c
+           tests/test_cpp.cc
+           thread_local_alloc.c
+           tools/setjmp_t.c
+           tools/threadlibs.c
+           typd_mlc.c
+           win32_threads.c
+Copyright: 1988-1989 Hans-J. Boehm, Alan J. Demers
+           1991-1996 Xerox Corporation.
+           1996-1999 Silicon Graphics.
+           1998 Fergus Henderson.
+           1999-2001 Red Hat, Inc.
+           1999-2009 Hewlett-Packard Development Company, L.P.
+           1999-2011 Hewlett-Packard Company.
+           2000-2011 Hewlett-Packard Development Company.
+           2007 Free Software Foundation, Inc
+           2008-2021 Ivan Maidanski
+           2011 Ludovic Courtes
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+
+Files:     Makefile.in
+           aclocal.m4
+           compile
+           configure
+           depcomp
+           install-sh
+           ltmain.sh
+           m4/libtool.m4
+           m4/ltoptions.m4
+           m4/ltsugar.m4
+           m4/ltversion.m4
+           m4/lt~obsolete.m4
+           missing
+           test-driver
+Copyright: 1992-2022 Free Software Foundation, Inc.
+           1994 X Consortium
+License:   __AUTO_PERMISSIVE__
+ Autogenerated files with permissive licenses.
+
+Files:     README.md
+           config.guess
+           config.sub
+Copyright: 1992-2021 Free Software Foundation, Inc.
+           & Warranty
+License:   __NO_LICENSE__
+
+Files:     extra/msvc_dbg.c
+           include/private/msvc_dbg.h
+Copyright: 2004-2005 Andrei Polushin
+License:   Expat
+ Permission is hereby granted, free of charge,  to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction,  including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+Files:     m4/gc_set_version.m4
+           tests/tests.am
+Copyright: __NO_COPYRIGHT__ in: m4/gc_set_version.m4
+           __NO_COPYRIGHT__ in: tests/tests.am
+License:   __UNKNOWN__
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+
+Files:     CMakeLists.txt
+Copyright: 1994 Xerox Corporation.
+           1996 Silicon Graphics.
+           1998 Fergus Henderson.
+           2000-2010 Hewlett-Packard Company.
+           2010-2021 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ get cmake and run:
+ cmake -G "Visual Studio 8 2005"
+ in the same dir as this file
+ this will generate gc.sln
+
+Files:     cord/tests/de_win.c
+Copyright: 1994 Xerox Corporation.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ The Windows specific part of de.
+ This started as the generic Windows application template
+ but significant parts didn't survive to the final version.
+
+Files:     cord/cordxtra.c
+Copyright: 1993-1994 Xerox Corporation.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ These are functions on cords that do not need to understand their
+ implementation.  They serve also serve as example client code for
+
+Files:     include/private/gc_pmark.h
+Copyright: 1991-1994 Xerox Corporation.
+           2001 Hewlett-Packard Company.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Private declarations of GC marker data structures and macros
+ .
+ Declarations of mark stack.  Needed by marker and client supplied mark
+
+Files:     extra/gc.c
+Copyright: 1994 Xerox Corporation.
+           1996 Silicon Graphics.
+           1998 Fergus Henderson.
+           2000-2009 Hewlett-Packard Development Company.
+           2009-2018 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This file could be used for the following purposes:
+ - get the complete GC as a single link object file (module);
+ - enable more compiler optimizations.
+ .
+ Tip: to get the highest level of compiler optimizations, the typical
+ compiler options (GCC) to use are:
+
+Files:     tests/disclaim_weakmap_test.c
+Copyright: 2018 Petter A. Urkedal
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This tests a case where disclaim notifiers sometimes return non-zero
+ in order to protect objects from collection.
+
+Files:     cord/tests/de.c
+Copyright: 1993-1994 Xerox Corporation.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ A really simple-minded text editor based on cords.
+ Things it does right:
+ No size bounds.
+ Unbounded undo.
+ Shouldn't crash no matter what file you invoke it on (e.g. /vmunix)
+ (Make sure /vmunix is not writable before you try this.)
+ Scrolls horizontally.
+ Things it does wrong:
+ It doesn't handle tabs reasonably (use "expand" first).
+ The command set is MUCH too small.
+ The redisplay algorithm doesn't let curses do the scrolling.
+ The rule for moving the window over the file is suboptimal.
+
+Files:     tests/test.c
+Copyright: 1988-1989 Hans-J. Boehm, Alan J. Demers
+           1991-1994 Xerox Corporation.
+           1996 Silicon Graphics.
+           2009-2021 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ An incomplete test for the garbage collector.
+ Some more obscure entry points are not tested at all.
+ This must be compiled with the same flags used to build the
+ GC.  It uses GC internals to allow more precise results
+ checking for some of the tests.
+
+Files:     tests/test_atomic_ops.c
+Copyright: 2017 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Minimal testing of atomic operations used by the BDWGC.  Primary use
+ is to determine whether compiler atomic intrinsics can be relied on.
+
+Files:     Makefile.am
+Copyright: 1999-2001 Red Hat, Inc.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Process this file with automake to produce Makefile.in.
+ .
+ Info (current:revision:age) for the Libtool versioning system.
+ These numbers should be updated at most once just before the release,
+ and, optionally, at most once during the development (after the release).
+
+Files:     include/include.am
+Copyright: __NO_COPYRIGHT__ in: include/include.am
+License:   __UNKNOWN__
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Process this file with automake to produce part of Makefile.in.
+ .
+ installed headers
+
+Files:     include/gc_typed.h
+Copyright: 1988-1989 Hans-J. Boehm, Alan J. Demers
+           1991-1994 Xerox Corporation.
+           1996 Silicon Graphics.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Some simple primitives for allocation with explicit type information.
+ Facilities for dynamic type inference may be added later.
+ Should be used only for extremely performance critical applications,
+ or if conservative collector leakage is otherwise a problem (unlikely).
+ Note that this is implemented completely separately from the rest
+ of the collector, and is not linked in unless referenced.
+
+Files:     include/gc_pthread_redirects.h
+Copyright: 1994 Xerox Corporation.
+           1996 Silicon Graphics.
+           1998 Fergus Henderson.
+           2000-2010 Hewlett-Packard Development Company.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Our pthread support normally needs to intercept a number of thread
+ calls.  We arrange to do that here, if appropriate.
+
+Files:     include/private/gc_atomic_ops.h
+Copyright: 2017 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This is a private GC header which provides an implementation of
+
+Files:     include/gc_backptr.h
+Copyright: 1994 Xerox Corporation.
+           1996 Silicon Graphics.
+           1998 Fergus Henderson.
+           2000-2009 Hewlett-Packard Development Company.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This is a simple API to implement pointer back tracing, i.e.
+ to answer questions such as "who is pointing to this" or
+ "why is this object being retained by the collector"
+ .
+ Most of these calls yield useful information on only after
+ a garbage collection.  Usually the client will first force
+ a full collection and then gather information, preferably
+ before much intervening allocation.
+ .
+ The implementation of the interface is only about 99.9999%
+ correct.  It is intended to be good enough for profiling,
+ but is not intended to be used with production code.
+ .
+ Results are likely to be much more useful if all allocation is
+ accomplished through the debugging allocators.
+ .
+ The implementation idea is due to A. Demers.
+
+Files:     doc/doc.am
+Copyright: __NO_COPYRIGHT__ in: doc/doc.am
+License:   __UNKNOWN__
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Process this file with automake to produce Makefile.in.
+ .
+ installed documentation
+
+Files:     include/private/dbg_mlc.h
+Copyright: 1988-1989 Hans-J. Boehm, Alan J. Demers
+           1991-1995 Xerox Corporation.
+           1997 Silicon Graphics.
+           1999 Hewlett-Packard Company.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This is mostly an internal header file.  Typical clients should
+ not use it.  Clients that define their own object kinds with
+ debugging allocators will probably want to include this, however.
+ No attempt is made to keep the namespace clean.  This should not be
+ included from header files that are frequently included by clients.
+
+Files:     include/gc_allocator.h
+Copyright: 1996-1997 Silicon Graphics Computer Systems, Inc.
+           2002 Hewlett-Packard Company
+License:   __UNKNOWN__
+ Permission to use, copy, modify, distribute and sell this software
+ and its documentation for any purpose is hereby granted without fee,
+ provided that the above copyright notice appear in all copies and
+ that both that copyright notice and this permission notice appear
+ in supporting documentation.  Silicon Graphics makes no
+ representations about the suitability of this software for any
+ purpose.  It is provided "as is" without express or implied warranty.
+ .
+ Permission to use, copy, modify, distribute and sell this software
+ and its documentation for any purpose is hereby granted without fee,
+ provided that the above copyright notice appear in all copies and
+ that both that copyright notice and this permission notice appear
+ in supporting documentation.  Hewlett-Packard Company makes no
+ representations about the suitability of this software for any
+ purpose.  It is provided "as is" without express or implied warranty.
+ .
+ This implements standard-conforming allocators that interact with
+
+Files:     README.QUICK
+Copyright: 1988-1989 Hans-J. Boehm, Alan J. Demers
+           1991-1995 Xerox Corporation.
+           1996-1999 Silicon Graphics.
+           1999-2001 Hewlett-Packard.
+           2009-2021 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ A few files have other copyright holders. A few of the files needed
+ to use the GNU-style build procedure come with a modified GPL license
+ that appears not to significantly restrict use of the collector, though
+ use of those files for a purpose other than building the collector may
+ require the resulting code to be covered by the GPL.
+ .
+ For more details and the names of other contributors, see the README.md,
+ doc/README.*, AUTHORS and include/gc.h files.  These files describe typical
+ use of the collector on a machine that is already supported.
+
+Files:     include/gc_mark.h
+Copyright: 1991-1994 Xerox Corporation.
+           2001 Hewlett-Packard Company.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This contains interfaces to the GC marker that are likely to be useful to
+ clients that provide detailed heap layout information to the collector.
+ This interface should not be used by normal C or C++ clients.
+ It will be useful to runtimes for other languages.
+ .
+ This is an experts-only interface!  There are many ways to break the
+ collector in subtle ways by using this functionality.
+
+Files:     include/gc_config_macros.h
+Copyright: 1994 Xerox Corporation.
+           1996 Silicon Graphics.
+           1998 Fergus Henderson.
+           2000-2009 Hewlett-Packard Development Company.
+           2008-2020 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This should never be included directly; it is included only from gc.h.
+ We separate it only to make gc.h more suitable as documentation.
+
+Files:     tests/disclaim_test.c
+Copyright: 2011 Hewlett-Packard Company.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Test that objects reachable from an object allocated with
+
+Files:     doc/README.Mac
+Copyright: __NO_COPYRIGHT__ in: doc/README.Mac
+License:   __UNKNOWN__
+ The contents of this file are old and pertain to pre-MacOSX versions.
+ You probably really wanted README.darwin.
+
+Files:     doc/README.cords
+Copyright: 1993-1994 Xerox Corporation.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This is a string packages that uses a tree-based representation.
+ See cord.h for a description of the functions provided.  Ec.h describes
+ "extensible cords", which are essentially output streams that write
+ to a cord.  These allow for efficient construction of cords without
+ requiring a bound on the size of a cord.
+ .
+ More details on the data structure can be found in
+ .
+ Boehm, Atkinson, and Plass, "Ropes: An Alternative to Strings",
+ Software Practice and Experience 25, 12, December 1995, pp. 1315-1330.
+ .
+ A fundamentally similar "rope" data structure is also part of SGI's standard
+ template library implementation, and its descendants, which include the
+ GNU C++ library.  That uses reference counting by default.
+ There is a short description of that data structure at
+ http://www.sgi.com/tech/stl/ropeimpl.html .
+ .
+ All of these are descendants of the "ropes" in Xerox Cedar.
+ .
+ cord/tests/de.c is a very dumb text editor that illustrates the use of cords.
+ It maintains a list of file versions.  Each version is simply a
+ cord representing the file contents.  Nonetheless, standard
+ editing operations are efficient, even on very large files.
+ (Its 3 line "user manual" can be obtained by invoking it without
+ arguments.  Note that ^R^N and ^R^P move the cursor by
+ almost a screen.  It does not understand tabs, which will show
+ up as highlighted "I"s.  Use the UNIX "expand" program first.)
+ To build the editor, type "make de" in the gc directory.
+
+Files:     include/private/gcconfig.h
+Copyright: 1988-1989 Hans-J. Boehm, Alan J. Demers
+           1991-1994 Xerox Corporation.
+           1996 Silicon Graphics.
+           2000-2004 Hewlett-Packard Development Company, L.P.
+           2009-2021 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This header is private to the gc.  It is almost always included from
+
+Files:     include/cord.h
+Copyright: 1993-1994 Xerox Corporation.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Cords are immutable character strings.  A number of operations
+ on long cords are much more efficient than their strings.h counterpart.
+ In particular, concatenation takes constant time independent of the length
+ of the arguments.  (Cords are represented as trees, with internal
+ nodes representing concatenation and leaves consisting of either C
+ strings or a functional description of the string.)
+ .
+ The following are reasonable applications of cords.  They would perform
+ unacceptably if C strings were used:
+ - A compiler that produces assembly language output by repeatedly
+ concatenating instructions onto a cord representing the output file.
+ - A text editor that converts the input file to a cord, and then
+ performs editing operations by producing a new cord representing
+ the file after each character change (and keeping the old ones in an
+ edit history).
+ .
+ For optimal performance, cords should be built by
+ concatenating short sections.
+ This interface is designed for maximum compatibility with C strings.
+
+Files:     include/gc.h
+Copyright: 1988-1989 Hans-J. Boehm, Alan J. Demers
+           1991-1995 Xerox Corporation.
+           1996-1999 Silicon Graphics.
+           1999 Hewlett-Packard Company.
+           2000-2011 Hewlett-Packard Development Company.
+           2007 Free Software Foundation, Inc
+           2009-2020 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Note that this defines a large number of tuning hooks, which can
+ safely be ignored in nearly all cases.  For normal use it suffices
+
+Files:     include/gc_version.h
+Copyright: 1994 Xerox Corporation.
+           1996 Silicon Graphics.
+           1998 Fergus Henderson.
+           2000-2009 Hewlett-Packard Development Company.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This should never be included directly; it is included only from gc.h.
+
+Files:     include/cord_pos.h
+Copyright: 1993-1994 Xerox Corporation.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This should never be included directly; included only from cord.h.
+
+Files:     include/private/thread_local_alloc.h
+Copyright: 2000-2005 Hewlett-Packard Company.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ Included indirectly from a thread-library-specific file.
+ This is the interface for thread-local allocation, whose
+ implementation is mostly thread-library-independent.
+ Here we describe only the interface that needs to be known
+ and invoked from the thread support layer;  the actual
+
+Files:     include/private/gc_alloc_ptrs.h
+Copyright: 1996-1998 Silicon Graphics.
+           2018-2021 Ivan Maidanski
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ This file is kept for a binary compatibility purpose only.
+
+Files:     cord/cordprnt.c
+Copyright: 1993-1994 Xerox Corporation.
+License:   __UNKNOWN__
+ THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED
+ OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ .
+ Permission is hereby granted to use or copy this program
+ for any purpose,  provided the above notices are retained on all copies.
+ Permission to modify the code and to distribute modified code is granted,
+ provided the above notices are retained, and a notice that the code was
+ modified is included with the above copyright notice.
+ .
+ An sprintf implementation that understands cords.  This is probably
+ not terribly portable.  It assumes an ANSI stdarg.h.  It further
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
